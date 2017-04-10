@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">支払記録</string>
+    <string name="payment_amount">支払額</string>
+    <string name="post">記録</string>
+    <string name="purpose">目的</string>
+    <string name="payment_method">支払方法</string>
+    <string name="payment_purpose">支払目的</string>
+    <string name="post_record_to_intent">支払記録の送り先を選択してください。</string>
+    <string name="record_datetime">記録日時</string>
+    <string name="record_location">記録場所</string>
+    <string name="action_settings">設定</string>
+    <string name="pref_default_payment_methods">現金,Suica,クレジットカード,その他</string>
+    <string name="pref_default_posting_tagname">出金</string>
+    <string name="pref_header_general">一般</string>
+    <string name="pref_title_payment_methods">支払方法一覧(カンマ(,)区切り)</string>
+    <string name="pref_title_posting_method">送信方法</string>
+    <string name="pref_title_posting_tagname">送信タグ名(Evernote時のみ)</string>
+    <string name="title_activity_settings">設定</string>
+    <string-array name="pref_list_posting_methods">
+        <item>Intent</item>
+        <item>Intent(Evernote)</item>
+    </string-array>
+</resources>

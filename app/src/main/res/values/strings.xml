@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Payment Record</string>
+
+    <string name="payment_amount">Payment Amount</string>
+    <string name="post">Post</string>
+    <string name="purpose">Purpose</string>
+    <string name="payment_purpose">Payment Purpose</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="record_datetime">Record Datetime</string>
+    <string name="record_location">Record Location</string>
+    <string name="post_record_to_intent">Choose a destination of the payment record.</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Strings related to Settings -->
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="pref_header_general">General</string>
+
+    <!-- General settings -->
+
+    <string name="pref_title_posting_method">Posting Method</string>
+    <string-array name="pref_list_posting_methods">
+        <item>Intent</item>
+        <item>Intent(Evernote)</item>
+    </string-array>
+    <string-array name="pref_list_posting_methods_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string name="pref_title_payment_methods">Payment methods(Comma separated)</string>
+    <string name="pref_default_payment_methods">Cash,Suica,Credit Card,Other</string>
+
+    <string name="pref_title_posting_tagname">Posting tagname(Sending to Evernote only)</string>
+    <string name="pref_default_posting_tagname">Payment</string>
+
+</resources>
